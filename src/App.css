@@ -1,0 +1,37 @@
+/* app.css - Styles globaux */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* gris clair */
+  color: #212529; /* texte par défaut */
+  margin: 0;
+  padding: 0;
+}
+
+/* Titres principaux */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Liens */
+a {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+/* Buttons généraux */
+button {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+/* Container global */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
