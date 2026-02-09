@@ -1,0 +1,4 @@
+# Proxy API vers Render (évite CORS : le navigateur appelle le même domaine)
+/api/*  https://backendmern-wttf.onrender.com/api/:splat  200
+# SPA : toutes les routes → index.html
+/*  /index.html  200
